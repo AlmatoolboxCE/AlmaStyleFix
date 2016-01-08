@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlmaStyleFix2013", "AlmaStyleFix2013.csproj", "{4FAB86BC-1998-42BF-BF04-E4432304A0CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlmaStyleFixLib", "..\..\AlmaStyleFixLib\AlmaStyleFixLib.csproj", "{CE573F54-C3B2-4557-B7D3-F0F06B15D458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICSharpCode.SharpZLib", "..\..\ICSharpZLib\ICSharpCode.SharpZLib.csproj", "{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NArrange.CSharp", "..\..\NArrange.CSharp\NArrange.CSharp.csproj", "{C4771371-41DD-476F-B107-DF60C4594813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NArrange.VisualBasic", "..\..\NArrange.VisualBasic\NArrange.VisualBasic.csproj", "{33A733CE-7BDD-42D6-ADE6-77B82226F965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NArrange.Core", "..\..\NArrange.Core\NArrange.Core.csproj", "{CD74EA33-223D-4CD9-9028-AADD4E929613}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsfarm.tsf.local:8080/tfs/almaviva
+		SccProjectUniqueName0 = AlmaStyleFix2013.csproj
+		SccProjectName0 = .
+		SccAuxPath0 = http://tfsfarm.tsf.local:8080/tfs/almaviva
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\..\\AlmaStyleFixLib\\AlmaStyleFixLib.csproj
+		SccProjectName1 = ../../AlmaStyleFixLib
+		SccAuxPath1 = http://tfsfarm.tsf.local:8080/tfs/almaviva
+		SccLocalPath1 = ..\\..\\AlmaStyleFixLib
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\..\\ICSharpZLib\\ICSharpCode.SharpZLib.csproj
+		SccProjectName2 = ../../ICSharpZLib
+		SccAuxPath2 = http://tfsfarm.tsf.local:8080/tfs/almaviva
+		SccLocalPath2 = ..\\..\\ICSharpZLib
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ..\\..\\NArrange.CSharp\\NArrange.CSharp.csproj
+		SccProjectName3 = ../../NArrange.CSharp
+		SccAuxPath3 = http://tfsfarm.tsf.local:8080/tfs/almaviva
+		SccLocalPath3 = ..\\..\\NArrange.CSharp
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName4 = ..\\..\\NArrange.VisualBasic\\NArrange.VisualBasic.csproj
+		SccProjectName4 = ../../NArrange.VisualBasic
+		SccAuxPath4 = http://tfsfarm.tsf.local:8080/tfs/almaviva
+		SccLocalPath4 = ..\\..\\NArrange.VisualBasic
+		SccProvider4 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName5 = ..\\..\\NArrange.Core\\NArrange.Core.csproj
+		SccProjectName5 = ../../NArrange.Core
+		SccAuxPath5 = http://tfsfarm.tsf.local:8080/tfs/almaviva
+		SccLocalPath5 = ..\\..\\NArrange.Core
+		SccProvider5 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FAB86BC-1998-42BF-BF04-E4432304A0CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAB86BC-1998-42BF-BF04-E4432304A0CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAB86BC-1998-42BF-BF04-E4432304A0CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAB86BC-1998-42BF-BF04-E4432304A0CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE573F54-C3B2-4557-B7D3-F0F06B15D458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE573F54-C3B2-4557-B7D3-F0F06B15D458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE573F54-C3B2-4557-B7D3-F0F06B15D458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE573F54-C3B2-4557-B7D3-F0F06B15D458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7413FF-EB9E-4714-ACF2-BE3A6A7B2FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4771371-41DD-476F-B107-DF60C4594813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4771371-41DD-476F-B107-DF60C4594813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4771371-41DD-476F-B107-DF60C4594813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4771371-41DD-476F-B107-DF60C4594813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A733CE-7BDD-42D6-ADE6-77B82226F965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A733CE-7BDD-42D6-ADE6-77B82226F965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A733CE-7BDD-42D6-ADE6-77B82226F965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A733CE-7BDD-42D6-ADE6-77B82226F965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD74EA33-223D-4CD9-9028-AADD4E929613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD74EA33-223D-4CD9-9028-AADD4E929613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD74EA33-223D-4CD9-9028-AADD4E929613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD74EA33-223D-4CD9-9028-AADD4E929613}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

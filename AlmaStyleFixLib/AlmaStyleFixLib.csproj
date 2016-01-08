@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CE573F54-C3B2-4557-B7D3-F0F06B15D458}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlmaStyleFixLib</RootNamespace>
+    <AssemblyName>AlmaStyleFixLib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StyleCop, Version=4.7.1000.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hyperdrive\alm\LIBS\MS\StyleCop\StyleCop.dll</HintPath>
+    </Reference>
+    <Reference Include="StyleCop.CSharp, Version=4.7.1000.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hyperdrive\alm\LIBS\MS\StyleCop\StyleCop.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="StyleCop.CSharp.Rules, Version=4.7.1000.0, Culture=neutral, PublicKeyToken=f904653c63bc2738, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\hyperdrive\alm\LIBS\MS\StyleCop\StyleCop.CSharp.Rules.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlmaStyleFixLib.cs" />
+    <Compile Include="rules\AlmaCustomRules.cs" />
+    <Compile Include="rules\AlmaUsing.cs" />
+    <Compile Include="rules\BlankLineRules.cs" />
+    <Compile Include="rules\CheckErrors.cs" />
+    <Compile Include="rules\DocumentationRules.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rules\ModifierRules.cs" />
+    <Compile Include="rules\ReadabilityRules.cs" />
+    <Compile Include="rules\RenamingRules.cs" />
+    <Compile Include="SAObject.cs" />
+    <Compile Include="SFWorkingLine.cs" />
+    <Compile Include="rules\SpacingRules.cs" />
+    <Compile Include="rules\StyleCopRules.cs" />
+    <Compile Include="StyleFix.cs" />
+    <Compile Include="Utility.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libs\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="Libs\Microsoft.StyleCop.CSharp.dll" />
+    <Content Include="Libs\Microsoft.StyleCop.CSharp.Rules.dll" />
+    <Content Include="Libs\Microsoft.StyleCop.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NArrange.Core\NArrange.Core.csproj">
+      <Project>{cd74ea33-223d-4cd9-9028-aadd4e929613}</Project>
+      <Name>NArrange.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
